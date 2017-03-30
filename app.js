@@ -13,5 +13,5 @@ app.get('/', function(req, res) {
   });
 });
 //added a commet
-app.listen(8080);
+app.listen(port);
 module.exports.getApp = app;
